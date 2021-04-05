@@ -18,11 +18,12 @@ This is my profile header.
 
 
 ---
-This is 
+This is about me
 ![header](/Assets/image/Aboutme.png)
 
 
 ---
+This is some info that you can reach me out
 ![header](/Assets/image/contactme.png)
 
 
