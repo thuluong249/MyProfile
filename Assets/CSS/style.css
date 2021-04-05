@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    padding: 100px;
+}
+
+.banner {
+    position: relative;
+    min-height: 100vh;
+    background: url(/Assets/image/background.png);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h2 {
+    font-size: 3em;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.banner h2 span {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.banner h3 {
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.main {
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header .logo {
+    color:lightyellow;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: wavy;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+header ul li {
+    position: relative;
+    list-style: none;
+}
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+    color: mistyrose;
+    text-decoration-color: none;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rebeccapurple;
+}
+
+.heading h2 {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBx {
+    padding-right: 30px;
+}
+
+.contentBx h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.w50 {
+    min-width: 50%;
+}
+
+img {
+    max-width: 50%;
+    margin-left: 50%;
+}
+
+.Projects {
+    background:lightslategrey;
+}
+
+.heading.white {
+    color: wheat;
+}
+
+.Project .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: line;
+}
+
+.Projects .content .ProjectBx {
+    padding: 40px 20px;
+    background: #222;
+    color: #fff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+    display: line;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  
+    main {
+      max-width: 1200px;
+    }
+
+/*Footer */
+.footer {
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    background: lightslategray;
+    margin: left;
+}
+
+.footerbox {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
